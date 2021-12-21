@@ -1,0 +1,23 @@
+.k-table__operation-btns {
+  .btn-icon {
+    order: 1;
+    position: relative;
+    top: 1px;
+  }
+  .btn-text {
+    order: 2;
+    margin: 0 !important;
+  }
+
+  &-icon-right {
+    display: flex;
+    .btn-icon {
+      order: 2;
+    }
+    .btn-text {
+      order: 1;
+      margin-right: 2px !important;
+      margin-left: 0 !important;
+    }
+  }
+}

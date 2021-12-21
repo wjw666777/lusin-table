@@ -1,0 +1,17 @@
+examples/
+src/
+public/
+.idea/
+node_modules/
+tests/
+scripts/
+
+vue.config.js
+babel.config.js
+*.map
+jest.config.js
+.eslintrc.js
+.editorconfig
+.browserslistrc
+tsconfig.json
+.eslintignore
